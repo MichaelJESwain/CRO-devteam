@@ -14,6 +14,8 @@ const waitForElement = (cssSelector, cb) => {
       } else {
         window.requestAnimationFrame(lookForElement)
       }
+    } else {
+      cancelAnimationFrame(reqAnId)
     }
   }
 
@@ -30,4 +32,4 @@ const waitForElement = (cssSelector, cb) => {
 // ========================================================
 // Usage:
 // ========================================================
-waitForElement('header', () => console.log('found!'))
+waitForElement('.classThatDoesntExist-should-timeout', () => console.log('found!'))
