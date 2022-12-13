@@ -1,0 +1,29 @@
+.ext-bag-wrapper{
+    width: fit-content;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+    padding: 10px 16px;
+    gap: 8px;
+    background: #E5E7ED;
+    border-radius: 0;
+}
+.ext-bag-message{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #00174F;
+}
+@media (max-width: 680px){
+    .ext-bag-wrapper{
+      width: 100%;
+      height: auto;
+      justify-content: flex-start;
+      margin: 16px 0;
+    }
+}
