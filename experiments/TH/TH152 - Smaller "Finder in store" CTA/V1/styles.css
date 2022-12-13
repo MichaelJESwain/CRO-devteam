@@ -1,0 +1,43 @@
+[class*=product-page_] [class*=button--click-and-reserve_] button{
+    width: auto;
+  	margin: 3px 11px 8px;
+  	padding: 0 !important;
+}
+
+.newFinderInStoreBtn{
+    font-family: Futura,Calibri,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1rem;
+    letter-spacing: 0.2px;
+    display: flex;
+    text-align: left;
+    color: #00174F;
+    border: none;
+    text-transform: none;
+    padding: 0;
+    width: auto;
+    order: 2;
+    margin-left: 0.75em;
+    align-items: flex-start;
+  	justify-content: flex-start;
+  	transition: none;
+}         
+
+.newFinderInStoreDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  	height: 1.25em;
+}
+
+#locationId{
+	margin-left: -1px;
+  margin-right: 1.5px;
+}
+
+.newFinderInStoreBtn:last-child:hover{
+		text-decoration: underline;
+  	background: none;
+}
