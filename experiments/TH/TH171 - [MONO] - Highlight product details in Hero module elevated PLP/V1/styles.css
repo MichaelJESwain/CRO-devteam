@@ -1,0 +1,50 @@
+.divCTAStyle{
+    position: absolute;
+  	/*width: -webkit-fill-available; */
+  	left: 0;
+    margin: auto 20px 0 20px;
+    bottom: 20px;
+  	right: 30px;
+}
+
+.ctaStyle{
+    background-color: #fff;
+    color: #00174f;
+    border: 2px solid #fff;
+
+    font-family: Futura,Calibri,sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    height: 44px;
+    min-width: 120px;
+  	width: 100%;
+    padding: 0 12px;
+    border-radius: 3px;
+    transition: .25s;
+    font-size: 14px;
+    letter-spacing: 1px;
+    pointer-events: all;
+}
+
+.ctaStyle:hover{
+    border: 2px solid #f4f4f4;
+    background-color: #f4f4f4;
+    color: #00174f;
+    text-decoration: none;
+}
+
+/* On Desktop */
+@media screen and (min-width: 1024px){
+    .divCTAStyle{
+        bottom: 24px;
+      	margin: auto 24px 0px 24px;
+      	left: auto;
+    }
+}
