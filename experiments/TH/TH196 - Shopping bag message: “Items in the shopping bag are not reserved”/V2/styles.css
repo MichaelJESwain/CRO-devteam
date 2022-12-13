@@ -1,0 +1,8 @@
+@media screen and (max-width: 680px){
+    div[data-testid="ProductItem"]:last-child .new-shopping-bag-design.ShoppingBagContainer .ProductItem .product-details__product-image-remove-wrap{
+        min-height: fit-content;
+    }
+    div[data-testid="ProductItem"]:last-child {
+        padding-bottom: 0;
+    }
+}
