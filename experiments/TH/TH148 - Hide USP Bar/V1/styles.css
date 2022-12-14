@@ -1,0 +1,30 @@
+div[class*=auto-play-carousel_]{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    header[class*=header--header-banner_]{
+        height: 105px;
+    }
+}
+
+@media (max-width: 768px){
+    body:not(.menu-open_l0RAc) .search__form_bjQh8:before {
+        top: 0 !important;
+    }
+
+    header[class*=header--header-banner_]{
+        height: 50px;
+    }
+
+    [class*="nav__toggle-label_"] {
+        top: -35px !important;
+    }
+}
+
+@media (max-width: 1023px) and (max-width: 740px) {
+    .nav__toggle-label_xBFXP {
+        top: -25px;
+        left: 12px;
+    }
+}
