@@ -7,4 +7,4 @@ Static image as module01
 ## Variant 1 
 Video as module01
 
-### (Link)[https://app.asana.com/0/1201109242799454/1202147689523829/f]
+### [Link](https://app.asana.com/0/1201109242799454/1202147689523829/f)
