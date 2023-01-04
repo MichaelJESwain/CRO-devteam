@@ -49,7 +49,7 @@ const waitForPagetype = (pagetype, callback) => {
         window[`waitForPagetype${pagetype}`] = false
       } else {
         window.next.router.events.on('routeChangeComplete', function (route) {
-          if (route === '/checkout/payment') {
+          if (route === pagetype) {
             callback()
           }
         })
