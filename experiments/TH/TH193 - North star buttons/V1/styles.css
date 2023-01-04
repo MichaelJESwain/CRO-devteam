@@ -1,0 +1,118 @@
+.cta,
+[data-testid="EspotUrl"].Button,
+.Button:not([data-testid="show-more-button"]),
+.THCTA {
+    height: 48px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
+
+[data-testid="EspotUrl"].Button {
+    box-sizing: border-box;
+}
+
+.cta span,
+.Button__btn-content-wrap,
+.THCTAText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    height: 24px;
+}
+
+.cta span,
+[data-testid="CookieNotice"] .Button__btn-content-wrap,
+[data-testid="register"] .Button__btn-content-wrap {
+    text-transform: capitalize;
+    display: block;
+}
+
+.cta,
+.cta-blue-border-transparent,
+[data-testid="basket-panel-move-to-basket"],
+.Button__secondary--inverse,
+.Button__contrast__border,
+.Button {
+    border-width: 1px !important;
+}
+
+
+[class*="SEO-button_"] {
+    height: 40px;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    display: flex;
+    align-items: center;
+    border: 1px solid !important;
+}
+
+[class*="SEO-button_"] [class*="SEO-link"] {
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 24px !important;
+    letter-spacing: 0 !important;
+    height: 24px;
+    text-transform: capitalize;
+}
+
+.Button__secondary--compact,
+.Button__contrast--compact {
+    height: 40px !important;
+    max-height: 40px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+.MuiInputLabel-formControl,
+.MuiInputBase-input,
+.THInput,
+.THInput__label:not(.THInput__label--active) {
+    font-size: 15px !important;
+}
+
+.THInput__label--active {
+    font-size: 11px !important;
+}
+
+.MuiInputLabel-formControl {
+    left: 4px;
+}
+
+.MuiInputBase-formControl,
+.THInput {
+    height: 48px !important;
+}
+
+.MuiInputBase-input,
+.THInput {
+    padding: 24.5px 16px 8.5px !important;
+    height: 16px;
+}
+.Mui-focused .MuiSelect-select.MuiInputBase-input {
+    padding: 20.5px 16px 4.5px !important;
+    height: 16px;
+}
+
+.MuiInputLabel-formControl {
+    left: 5px !important;
+    top: -3px !important;
+}
+
+.MuiInputLabel-shrink,
+.THInput__label--active {
+    top: -1.5px !important;
+}
+
+.MuiInputBase-formControl.Mui-error,
+.MuiInputBase-formControl.Mui-focused {
+    height: 49px !important;
+}
+
+.MuiInputLabel-formControl[data-shrink="false"] {
+    line-height: 24px;
+    top: -8px !important;
+}
