@@ -1,8 +1,0 @@
-span[class*=product-tile__price_]{
-    font-weight: 400;
-}
-/* or */
-
-span[data-price-display=""] {
-    font-weight: 400;
-}
