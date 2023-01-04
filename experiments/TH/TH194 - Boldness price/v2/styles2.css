@@ -1,3 +1,4 @@
+span[data-price-display=""]{font-weight: 400;}
 span[data-price-display=""]{
     display: flex;
     flex-direction: row-reverse;
