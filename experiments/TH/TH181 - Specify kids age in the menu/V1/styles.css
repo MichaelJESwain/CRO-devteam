@@ -1,0 +1,76 @@
+/* lang: en */
+li[data-submenu-id="TH_BOYS_UKI"] > a span p,  li[data-submenu-id="TH_GIRLS_UKI"] > a span p, li[data-submenu-id="TH_BABIES_UKI"] > a span p {
+	position: relative;
+}
+li[data-submenu-id="TH_BOYS_UKI"] > a span p::after, li[data-submenu-id="TH_GIRLS_UKI"] > a span p::after {
+	content: " (1-16 Years)";
+}
+li[data-submenu-id="TH_BABIES_UKI"] > a span p::after {
+	content: " (0-2 Years)";
+}
+
+/* lang: nl */
+li[data-submenu-id="TH_BOYS_NL"] > a span p,  li[data-submenu-id="TH_GIRLS_NL"] > a span p, li[data-submenu-id="TH_BABIES_NL"] > a span p {
+	position: relative;
+}
+li[data-submenu-id="TH_BOYS_NL"] > a span p::after, li[data-submenu-id="TH_GIRLS_NL"] > a span p::after {
+	content: " (1-16 Jaar)";
+}
+li[data-submenu-id="TH_BABIES_NL"] > a span p::after {
+	content: " (0-2 Jaar)";
+}
+
+/* lang: de */
+[lang="de"] li[data-submenu-id="TH_BOYS_DE"] > a span p, [lang="de"] li[data-submenu-id="TH_GIRLS_DE"] > a span p, [lang="de"] li[data-submenu-id="TH_BABIES_DE"] > a span p {
+	position: relative;
+}
+[lang="de"] li[data-submenu-id="TH_BOYS_DE"] > a span p::after, [lang="de"] li[data-submenu-id="TH_GIRLS_DE"] > a span p::after {
+	content: " (1-16 Jahre)";
+}
+[lang="de"] li[data-submenu-id="TH_BABIES_DE"] > a span p::after {
+	content: " (0-2 Jahre)";
+}
+
+/* lang: fr */
+li[data-submenu-id="TH_BOYS_FR"] > a span p,  li[data-submenu-id="TH_GIRLS_FR"] > a span p, li[data-submenu-id="TH_BABIES_FR"] > a span p {
+	position: relative;
+}
+li[data-submenu-id="TH_BOYS_FR"] > a span p::after, li[data-submenu-id="TH_GIRLS_FR"] > a span p::after {
+	content: " (1-16 Ans)";
+}
+li[data-submenu-id="TH_BABIES_FR"] > a span p::after {
+	content: " (0-2 Ans)";
+}
+
+/* lang: it */
+li[data-submenu-id="TH_BOYS_IT"] > a span p,  li[data-submenu-id="TH_GIRLS_IT"] > a span p, li[data-submenu-id="TH_BABIES_IT"] > a span p {
+	position: relative;
+}
+li[data-submenu-id="TH_BOYS_IT"] > a span p::after, li[data-submenu-id="TH_GIRLS_IT"] > a span p::after {
+	content: " (1-16 Anni)";
+}
+li[data-submenu-id="TH_BABIES_IT"] > a span p::after {
+	content: " (0-2 Anni)";
+}
+
+/* lang: es */
+li[data-submenu-id="TH_BOYS_IBE"] > a span p,  li[data-submenu-id="TH_GIRLS_IBE"] > a span p, li[data-submenu-id="TH_BABIES_IBE"] > a span p {
+	position: relative;
+}
+li[data-submenu-id="TH_BOYS_IBE"] > a span p::after, li[data-submenu-id="TH_GIRLS_IBE"] > a span p::after {
+	content: " (1-16 Años)";
+}
+li[data-submenu-id="TH_BABIES_IBE"] > a span p::after {
+	content: " (0-2 Años)";
+}
+
+/* lang: pl */
+[lang="pl"] li[data-submenu-id="TH_BOYS_DE"] > a span p, [lang="pl"] li[data-submenu-id="TH_GIRLS_DE"] > a span p, [lang="pl"] li[data-submenu-id="TH_BABIES_DE"] > a span p {
+	position: relative;
+}
+[lang="pl"] li[data-submenu-id="TH_BOYS_DE"] > a span p::after, [lang="pl"] li[data-submenu-id="TH_GIRLS_DE"] > a span p::after {
+	content: " (1-16 Lat)";
+}
+[lang="pl"] li[data-submenu-id="TH_BABIES_DE"] > a span p::after {
+	content: " (0-2 Lat)";
+}
