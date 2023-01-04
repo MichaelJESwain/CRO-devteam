@@ -1,0 +1,92 @@
+/* lang: en */
+.kids .mega-menu__second-level a[href="/boys"] span,
+.kids .mega-menu__second-level a[href="/girls"] span,
+.kids .mega-menu__second-level a[href="/babies"] span {
+  position: relative;
+}
+.kids .mega-menu__second-level a[href="/boys"] span::after,
+.kids .mega-menu__second-level a[href="/girls"] span::after {
+  content: " (4-16 Years)";
+}
+.kids .mega-menu__second-level a[href="/babies"] span::after {
+  content: " (0-2 Years)";
+}
+/* lang: nl */
+.kinderen .mega-menu__second-level a[href="/jongens"] span,
+.kinderen .mega-menu__second-level a[href="/meisjes"] span,
+.kinderen .mega-menu__second-level a[href="/babys"] span {
+  position: relative;
+}
+.kinderen .mega-menu__second-level a[href="/jongens"] span::after,
+.kinderen .mega-menu__second-level a[href="/meisjes"] span::after {
+  content: " (4-16 Jaar)";
+}
+.kinderen .mega-menu__second-level a[href="/babys"] span::after {
+  content: " (0-2 Jaar)";
+}
+/* lang: de */
+.kinder .mega-menu__second-level a[href="/jungen"] span,
+.kinder .mega-menu__second-level a[href="/maedchen"] span,
+.kinder .mega-menu__second-level a[href="/babys"] span,
+kinder {
+  position: relative;
+}
+.kinder .mega-menu__second-level a[href="/jungen"] span::after,
+.kinder .mega-menu__second-level a[href="/maedchen"] span::after {
+  content: " (4-16 Jahre)";
+}
+.kinder .mega-menu__second-level a[href="/babys"] span::after {
+  content: " (0-2 Jahre)";
+}
+/* lang: fr */
+.enfants .mega-menu__second-level a[href="/garcon"] span,
+.enfants .mega-menu__second-level a[href="/fille"] span,
+.enfants .mega-menu__second-level a[href="/bebe"] span {
+  position: relative;
+}
+.enfants .mega-menu__second-level a[href="/garcon"] span::after,
+.enfants .mega-menu__second-level a[href="/fille"] span::after {
+  content: " (4-16 Ans)";
+}
+.enfants .mega-menu__second-level a[href="/bebe"] span::after {
+  content: " (0-2 Ans)";
+}
+/* lang: it */
+.bambini .mega-menu__second-level a[href="/bambino"] span,
+.bambini .mega-menu__second-level a[href="/bambina"] span,
+.bambini .mega-menu__second-level a[href="/neonati"] span {
+  position: relative;
+}
+.bambini .mega-menu__second-level a[href="/bambino"] span::after,
+.bambini .mega-menu__second-level a[href="/bambina"] span::after {
+  content: " (4-16 Anni)";
+}
+.bambini .mega-menu__second-level a[href="/neonati"] span::after {
+  content: " (0-2 Ans)";
+}
+/* lang: es */
+.niños .mega-menu__second-level a[href="/ninos"] span,
+.niños .mega-menu__second-level a[href="/ninas"] span,
+.niños .mega-menu__second-level a[href="/bebes"] span {
+  position: relative;
+}
+.niños .mega-menu__second-level a[href="/ninos"] span::after,
+.niños .mega-menu__second-level a[href="/ninas"] span::after {
+  content: " (4-16 Años)";
+}
+.niños .mega-menu__second-level a[href="/bebes"] span::after {
+  content: " (0-2 Años)";
+}
+/* lang: pl */
+.dzieci .mega-menu__second-level a[href="/chlopcy"] span,
+.dzieci .mega-menu__second-level a[href="/dziewczynki"] span,
+.dzieci .mega-menu__second-level a[href="/niemowleta"] span {
+  position: relative;
+}
+.dzieci .mega-menu__second-level a[href="/chlopcy"] span::after,
+.dzieci .mega-menu__second-level a[href="/dziewczynki"] span::after {
+  content: " (4-16 Lat)";
+}
+.dzieci .mega-menu__second-level a[href="/niemowleta"] span::after {
+  content: " (0-2 Lat)";
+}
