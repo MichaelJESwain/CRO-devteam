@@ -1,20 +1,18 @@
 /* jshint ignore:start */
 if (/[?&]cvqa=false/i.test(window.location.search)) {
-    document.cookie = 'cvqa=false;path=/'
+    document.cookie = 'cvqa=false;path=/';
 } else if (/[?&]cvqa/i.test(window.location.search)) {
-    document.cookie = 'cvqa=true;path=/'
+    document.cookie = 'cvqa=true;path=/';
 }
-
 if (/[?&]cvqa2=false/i.test(window.location.search)) {
-    document.cookie = 'cvqa2=false;path=/'
+    document.cookie = 'cvqa2=false;path=/';
 } else if (/[?&]cvqa2/i.test(window.location.search)) {
-    document.cookie = 'cvqa2=true;path=/'
+    document.cookie = 'cvqa2=true;path=/';
 }
-
 if (/[?&]cvqa3=false/i.test(window.location.search)) {
-    document.cookie = 'cvqa3=false;path=/'
+    document.cookie = 'cvqa3=false;path=/';
 } else if (/[?&]cvqa3/i.test(window.location.search)) {
-    document.cookie = 'cvqa3=true;path=/'
+    document.cookie = 'cvqa3=true;path=/';
 }
 
 var langID;
@@ -23,18 +21,6 @@ setLangId();
 
 (function () {
     //Activate page logic
-    if (window.location.href.indexOf('checkout/confirmation') >= 0) {
-        //Confirmation page - Set survey div holder
-        var waitForHolder = setInterval(function () {
-          	var holder = document.querySelectorAll('.yourOrderWrapper');
-
-            if (holder.length) {
-                clearInterval(waitForHolder)
-             	document.querySelector('#surveyDiv').parentNode.insertBefore(holder, document.querySelector('#surveyDiv').nextSibling);
-            }
-        })
-    }
-
     var waitForWindowDDIndex = 0
     var waitForWindowDigitalData = setInterval(function () {
         if (
