@@ -22,17 +22,14 @@ var langID;
 setLangId();
 
 (function () {
-
     //Activate page logic
     if (window.location.href.indexOf('checkout/confirmation') >= 0) {
         //Confirmation page - Set survey div holder
         var waitForHolder = setInterval(function () {
-            //var holder = $('.yourOrderWrapper')
           	var holder = document.querySelectorAll('.yourOrderWrapper');
 
             if (holder.length) {
                 clearInterval(waitForHolder)
-                //$('<div id="surveyDiv"></div>').insertAfter(holder)
              	document.querySelector('#surveyDiv').parentNode.insertBefore(holder, document.querySelector('#surveyDiv').nextSibling);
             }
         })
@@ -64,12 +61,12 @@ setLangId();
     }, 50)
 })();
 
-window['optimizely'] = window['optimizely'] || []
+window.optimizely = window.optimizely || []
 if (document.cookie.indexOf('ck_new_vs_return_cv_session') == -1) {
     document.cookie = 'ck_new_vs_return_cv_session=true; path=/;'
 
     var cvSetCountrySegment = function (cvCountry) {
-        window['optimizely'].push({
+        window.optimizely.push({
             type: 'user',
             attributes: {
                 9579830856: cvCountry,
@@ -96,7 +93,7 @@ if (document.cookie.indexOf('ck_new_vs_return_cv_session') == -1) {
     }
 
     if (document.cookie.indexOf('ck_new_vs_return_cv_month') == -1) {
-        window['optimizely'].push({
+        window.optimizely.push({
             type: 'user',
             attributes: {
                 9602950004: 'CK_new_visitor',
@@ -109,7 +106,7 @@ if (document.cookie.indexOf('ck_new_vs_return_cv_session') == -1) {
             cvNowPlus30Days.toUTCString() +
             '; path=/;'
     } else {
-        window['optimizely'].push({
+        window.optimizely.push({
             type: 'user',
             attributes: {
                 9602950004: 'CK_returning_visitor',
@@ -118,22 +115,21 @@ if (document.cookie.indexOf('ck_new_vs_return_cv_session') == -1) {
     }
 }
 
-
 var trackDelayed = function () {
     const waitForPageReady = setInterval(function () {
         if (window && 
-            window['optimizely'] && 
-            window['optimizely'].get('custom/adobeIntegrator') !== undefined && 
+            window.optimizely && 
+            window.optimizely.get('custom/adobeIntegrator') !== undefined && 
             sessionStorage &&
             typeof window.utag != 'undefined' && 
             typeof window.utag.link === 'function') {
                 clearInterval(waitForPageReady);
-                window['optimizely'].get('custom/adobeIntegrator').trackDelayedCampaigns();
+                window.optimizely.get('custom/adobeIntegrator').trackDelayedCampaigns();
             }
         }, 100);
 }
 
-window['optimizely'].push({
+window.optimizely.push({
     type: 'addListener',
     filter: {
         type: 'lifecycle',
@@ -141,7 +137,6 @@ window['optimizely'].push({
     },
     handler: trackDelayed,
 })
-
 
 function setLangId() {
     if (
