@@ -30,16 +30,16 @@
     if (document.cookie.indexOf('pageCount=1') != -1) {
       document.cookie = 'pageCount=2;path=/;';
   
-      window['optimizely'] = window['optimizely'] || [];
-      window['optimizely'].push({
+      window.optimizely = window.optimizely || [];
+      window.optimizely.push({
         type: 'event',
         eventName: 'multiple-views',
       });
     }
   } else {
     var cvSetCountrySegment = function (cvCountry) {
-      window['optimizely'] = window['optimizely'] || [];
-      window['optimizely'].push({
+      window.optimizely = window.optimizely || [];
+      window.optimizely.push({
         type: 'user',
         attributes: {
           10311960667: cvCountry,
@@ -60,8 +60,8 @@
     document.cookie = 'pageCount=1;path=/;';
   
     //fire event
-    window['optimizely'] = window['optimizely'] || [];
-    window['optimizely'].push({
+    window.optimizely = window.optimizely || [];
+    window.optimizely.push({
       type: 'event',
       eventName: 'single-view',
     });
@@ -69,22 +69,22 @@
   
   function newOrReturningSegment() {
     if (typeof cvSegmentedVisitor !== 'string') {
-      window['optimizely'] = window['optimizely'] || [];
-      window['cvSegmentedVisitor'] = window['cvSegmentedVisitor'] || '';
-      if (typeof window['optimizely'].get('visitor') === 'object') {
-        if (window['optimizely'].get('visitor').first_session) {
-          window['cvSegmentedVisitor'] = 'New visitor';
+      window.optimizely = window.optimizely || [];
+      window.cvSegmentedVisitor = window.cvSegmentedVisitor || '';
+      if (typeof window.optimizely.get('visitor') === 'object') {
+        if (window.optimizely.get('visitor').first_session) {
+          window.cvSegmentedVisitor = 'New visitor';
   
-          window['optimizely'].push({
+          window.optimizely.push({
             type: 'user',
             attributes: {
               8685700266: 'New Visitor',
             },
           });
         } else {
-          window['cvSegmentedVisitor'] = 'Returning visitor';
+          window.cvSegmentedVisitor = 'Returning visitor';
   
-          window['optimizely'].push({
+          window.optimizely.push({
             type: 'user',
             attributes: {
               8685700266: 'Returning Visitor',
@@ -97,9 +97,9 @@
   
   function productCategorySegment() {
     if (typeof cvSegmentCategory !== 'string') {
-      window['cvSegmentCategory'] = window['cvSegmentCategory'] || ''
-      window['optimizely'] = window['optimizely'] || []
-      var utils = window['optimizely'].get('utils')
+      window.cvSegmentCategory = window.cvSegmentCategory || '';
+      window.optimizely = window.optimizely || [];
+      var utils = window.optimizely.get('utils');
       utils
         .waitUntil(function () {
           return (
@@ -110,12 +110,13 @@
         })
         .then(function () {
           if (utag.data.page_type === 'plp') {
+         
             if (
               typeof utag.data.product_structure_group_id !== 'undefined' &&
               typeof utag.data.product_structure_group_id === 'string'
             ) {
-              window['cvSegmentCategory'] = utag.data.product_structure_group_id;
-              window['optimizely'].push({
+              window.cvSegmentCategory = utag.data.product_structure_group_id;
+              window.optimizely.push({
                 type: 'user',
                 attributes: {
                   10087016628: utag.data.product_structure_group_id,
@@ -132,8 +133,8 @@
     productCategorySegment();
   };
   
-  window['optimizely'] = window['optimizely'] || [];
-  window['optimizely'].push({
+  window.optimizely = window.optimizely || [];
+  window.optimizely.push({
     type: 'addListener',
     filter: {
       type: 'lifecycle',
@@ -154,7 +155,7 @@
         });
   };
   
-  window['optimizely'].push({
+  window.optimizely.push({
     type: 'addListener',
     filter: {
       type: 'lifecycle',
