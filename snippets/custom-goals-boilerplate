@@ -1,0 +1,27 @@
+const utils = window.optimizely.get('utils');
+    
+const fireAdobeEvent = (eventName) => {
+    utils.waitUntil(function(){ return window.s && window.s.tl; }).then(function() {
+        window.s.tl(this,"o", eventName);
+    });
+};
+
+const fireOptimizelyEvent = (eventName) => {
+    window['optimizely'] = window['optimizely'] || [];
+
+    window['optimizely'].push({
+        type: 'event',
+        eventName: eventName
+    });
+};
+
+const fireBothEvents = (eventName, isAuto) => {
+    fireAdobeEvent(eventName);
+    fireOptimizelyEvent(eventName);
+};
+
+
+// --- use case example ---- //
+utils.waitForElement('.element-selector').then(function() {
+  fireBothEvents('TH899 - Clicks on experiment element');
+});
