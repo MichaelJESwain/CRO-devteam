@@ -1,0 +1,6 @@
+Access the checkout confirmation page with these details:
+ 
+CCNO: 4444 3333 2222 1111 
+exp date: 03/30 
+cvc: 737
+name: test

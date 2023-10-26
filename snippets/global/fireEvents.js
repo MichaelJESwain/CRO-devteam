@@ -1,8 +1,11 @@
+const utils = window["optimizely"].get("utils");
 const fireAdobeEvent = (eventName) => {
-  if (window.s && window.s.tl) {
-    window.s.tl(window, 'o', eventName)
-  }
-}
+  utils.waitUntil(function(){ return utag && utag.link; }).then(function() {
+      utag.link({
+          "event_name": `${eventName}`
+      });
+  });
+};
 
 const fireOptimizelyEvent = (eventName) => {
   window['optimizely'] = window['optimizely'] || []
