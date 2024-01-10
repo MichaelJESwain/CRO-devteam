@@ -1,3 +1,4 @@
+//Old version
 const {waitUntil} = window.optimizely.get('utils');
 
 // send event to Adobe
