@@ -1,3 +1,12 @@
+// New fancy way to send events to Adobe and Optmizely
+
+const addToBag = document.querySelector('[data-testid="pdpActionButton-addToBag-pvh-button"]');
+addToBag.addEventListener('click', function () {
+  optimizely.sendAnalyticsEvents('<Event Name>');
+})
+
+// ======================================================
+
 //Old version
 const {waitUntil} = window.optimizely.get('utils');
 
