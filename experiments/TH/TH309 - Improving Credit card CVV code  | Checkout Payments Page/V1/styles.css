@@ -1,0 +1,20 @@
+.exp-text{
+    font-family: 'Futura Std';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5A5C66;
+    margin: 4px 0 0;
+    }
+    [class*="AdyenComponent_AdyenComponent__"] .adyen-checkout__field-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: var(--input-col-1-2-spacing-left);
+    }
+    [class*="AdyenComponent_AdyenComponent__"] .adyen-checkout__field--50 { width: 100%; }
+    .adyen-checkout__field--securityCode .adyen-checkout__input-wrapper{
+    border-left: solid 1px #000C2D;
+    border-left-width: thin !important;
+    }
+    .adyen-checkout__field--expiryDate{ margin-bottom: 0 !important;}
