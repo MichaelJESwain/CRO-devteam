@@ -1,0 +1,18 @@
+[data-testid="Recommendations-component-glp_rec_injection1"]:not(.exp-active-exp){
+    margin-bottom: 40px;
+    padding: 0 40px;
+  }
+  .exp-active-exp{
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  @media (max-width: 768px){
+    [data-testid="Recommendations-component-glp_rec_injection1"]{
+      margin-bottom: 0;
+      padding: 0;
+     }
+    [data-testid="Recommendations-component-glp_rec_injection1"]:not(.exp-active-exp){
+      padding: 0 .75rem;
+      }
+  }
+  
