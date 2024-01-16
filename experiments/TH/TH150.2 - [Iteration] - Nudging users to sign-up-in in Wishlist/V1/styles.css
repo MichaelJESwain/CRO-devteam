@@ -1,0 +1,20 @@
+.exp-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    width: fit-content;
+    background-color: #FEF6E9;
+    color: #875B13;
+    font: 400 16px/24px 'Futura Std';
+    margin-top: 8px;
+    }
+    .exp-svg{display: flex;}
+    .exp-link{text-decoration: underline;}
+    .exp-link:hover{cursor: pointer;}
+    [data-testid="filledWishlist-sign-in-pvh-button"]{
+    height: 0 !important;
+    padding: 0 !important;
+    visibility: hidden;
+    }

@@ -1,0 +1,33 @@
+.exp-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px;
+    width: 747px;
+    background-color: #FEF6E9;
+    color: #875B13;
+    font: 400 14px/20px 'Futura Std';
+    margin-top: 8px;  
+    }
+    .exp-cta{
+    text-decoration: underline;
+    margin-top: 16px;
+    }
+    .exp-cta:hover{cursor: pointer;}
+    .exp-title-msg{
+    line-height: 14px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #8C4F00;
+    margin-bottom: 4px;  
+    }
+    [data-testid="filledWishlist-sign-in-pvh-button"]{
+    height: 0 !important;
+    padding: 0 !important;
+    }
+    @media (max-width: 767px){
+        .exp-wrap{
+            width: fit-content;
+        }
+    }
