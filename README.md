@@ -15,5 +15,5 @@ Function call to send events to both Adobe and Optimizely:
 ## [Experiments](https://github.com/MichaelJESwain/CRO-devteam/tree/main/experiments)
 Most of the implementation of old experiments are in this folder. 
 
-It contains CK and TH experiments
+It contains client side experiments, CK and TH. It is possible to find their hypotheses, implementation, and the activation function when it is available.
 
