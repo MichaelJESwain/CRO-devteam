@@ -5,7 +5,7 @@ set up an experiment using Optimizely.
 
 
 ## [Snippets](https://github.com/MichaelJESwain/CRO-devteam/tree/main/snippets)
-Here you find a few boilerplates and useful functions for experiments implementation.
+Here you can find a few boilerplates and useful functions for implementation of experiments.
 
 ## [analyticsEvents](https://github.com/MichaelJESwain/CRO-devteam/tree/main/analyticsEvents)
 Function call to send events to both Adobe and Optimizely:
