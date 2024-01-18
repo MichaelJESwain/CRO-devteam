@@ -12,6 +12,11 @@ Function call to send events to both Adobe and Optimizely:
 
 => optimizely.sendAnalyticsEvents('Event Name')
 
+## [notes](https://github.com/MichaelJESwain/CRO-devteam/tree/main/notes)
+There are a couple of useful Optimizely functions and tricks. 
+
+e.g how to check which variation is running, on console, run: optimizely.get('state').getExperimentStates(); 
+
 ## [Experiments](https://github.com/MichaelJESwain/CRO-devteam/tree/main/experiments)
 Most of the implementation of old experiments are in this folder. 
 
