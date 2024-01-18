@@ -15,7 +15,7 @@ optimizely.utils.observeSelector(selector, callback, options);
 // Wait until the provided function returns true
 optimizely.utils.waitUntil(conditionFn);
 
-// A setInterval wrapper.
+// A setInterval wrapper
 optimizely.utils.poll(callback, delay);
 
 
