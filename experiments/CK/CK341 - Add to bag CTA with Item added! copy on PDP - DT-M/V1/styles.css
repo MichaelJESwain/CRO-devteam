@@ -1,0 +1,23 @@
+.success{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    }
+    .newCTA{
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    justify-content: center;
+    align-items: center;
+    cursor: not-allowed !important;
+    font-feature-settings: 'case' on;
+    color: #fff !important;  
+    }
+    .newCTA svg path{ stroke: #fff !important; }
+    .newCTA:hover{
+    background-color: #41850A !important;
+    color: #fff !important;
+    }
