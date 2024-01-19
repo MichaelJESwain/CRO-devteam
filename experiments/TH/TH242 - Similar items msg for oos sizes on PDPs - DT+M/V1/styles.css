@@ -1,0 +1,13 @@
+.exp-link{
+    margin-left: 4px !important;
+    color: #00174F !important;
+    font-family: "Futura Std";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    }
+    [class*=ProductSizeSelector_soldOut__] .exp-link{ display: flex; }
+    [class*=ProductSizeSelector_lowStockMessage__] .exp-link{ display: none; }
