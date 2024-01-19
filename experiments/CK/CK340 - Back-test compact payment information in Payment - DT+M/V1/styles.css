@@ -1,0 +1,15 @@
+[class*="SelectionItem_titleTextWrapper__"]{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    }
+    [class*=SelectionItem_Info__]{ order: 1 !important; }
+    
+    .exp-show-text span{
+    font-family: 'Klein Web';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #222222;
+    }
+    
