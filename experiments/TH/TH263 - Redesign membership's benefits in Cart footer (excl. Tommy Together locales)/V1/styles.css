@@ -1,0 +1,63 @@
+[data-testid="NewsletterSignUpSuccess-component"] h4,
+[data-testid="NewsletterBanner-component"] [data-testid="split-image-module"],
+[data-testid="MembershipBenefits-component"] h4{
+display: none;
+}
+[data-testid="NewsletterSignUpForm-component"] [data-testid="NewsletterSignUpForm-component-title"]{
+font-size: 22px;
+line-height: 32px;
+margin-bottom: 0;
+}
+[data-testid="NewsletterBanner-component"] [data-testid="split-sign-up-form-module"]{ width: max-content;}
+[class*=newsletter_sign_up_form_form__]{
+display: flex;
+flex-direction: row;
+column-gap: 8px;
+}
+[data-testid="MembershipBenefits-component"] [class*=MembershipBenefits_MembershipBenefitsList__]{
+display: flex;
+column-gap: 40px;
+}
+[data-testid="MembershipBenefits-component"]{ margin-top: 16px; }
+[data-testid="MembershipBenefits-component"] p{
+font-size: 15px;
+line-height: 24px;
+}
+[data-testid="MembershipBenefits-component"] p::first-letter{
+    text-transform: uppercase;
+}
+[data-testid="NewsletterSignUpForm-component"] [data-testid="newsletter-banner-form-submit-pvh-button"]{
+margin-top: 0;
+height: fit-content;
+}
+[class*=FormBuilder_FormBuilder__]{ width: 375px;}
+[data-testid="newsletter-terms-Checkbox-Component"]{margin-bottom: 0;}
+@media screen and (max-width: 767px){
+[data-testid="NewsletterBanner-component"] [data-testid="split-sign-up-form-module"]{
+padding: 0;
+width: fit-content;
+}
+[class*=FormBuilder_FormBuilder__] {
+    width: auto;
+}
+[data-testid="MembershipBenefits-component"]{
+  margin-top: 0;
+  }
+[data-testid="NewsletterBanner-component"] [data-testid="split-container"]{
+padding: 40px 20px;
+}
+[class*=newsletter_sign_up_form_form__]{
+display: grid;
+width: auto;
+}
+[data-testid="MembershipBenefits-component"] [class*=MembershipBenefits_MembershipBenefitsList__]{
+display: grid;
+gap: 12px;
+}
+[data-testid="MembershipBenefits-component"] [class*=MembershipBenefits_MembershipBenefitsList__] p{
+font-size: 15px;
+line-height: 24px;
+}
+[data-testid="newsletter-terms-Checkbox-Component"]{margin-bottom: 16px;}
+  
+        }
