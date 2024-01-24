@@ -1,5 +1,5 @@
 # HYPOTHESIS
-FBecause we learned that many visitors will not click on the 'notify me' CTA, we expect that by presenting a clear design of the size selector and motivating visitors to click through, we will increase the throughflow to the out of stock subscription form. This will result in additional out of stock subscriptions.
+Because we learned that many visitors will not click on the 'notify me' CTA, we expect that by presenting a clear design of the size selector and motivating visitors to click through, we will increase the throughflow to the out of stock subscription form. This will result in additional out of stock subscriptions.
 
 
 ## Variant 0 - Control
