@@ -1,0 +1,236 @@
+.exp-add-to-bag{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    }
+    .exp-btn{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #000;
+    border: 0.0625rem solid #000;
+    border-radius: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    color: #fff;
+    font-family: 'Klein Web';
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 15px 1.5rem;
+    text-align: center;
+    }
+    .exp-btn.exp-disabled{
+    background-color: rgba(228, 228, 228, 1);
+    color: rgba(153, 153, 153, 1);
+    border: none;
+    }
+    .exp-div-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .exp-add-to-bag:hover{
+    background-color: #fff;
+    border: 0.0625rem solid #000;
+    }
+    .miniBag{
+    z-index: 110;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 28px 28px 32px 28px;
+    }
+    .info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 8px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-family: "Klein Web";
+    margin-bottom: 20px;
+    }
+    .wrapperPicture img{
+    width: 75px;
+    height: 100px;
+    }
+    .info-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    width: fit-content;
+    height: auto;
+    font-family: 'Klein Web';
+    }
+    .info-text p{ margin: 0; }
+    .info-text p:first-child{ margin-top: 0; } 
+    .title{
+    width: calc(100% - 64px);
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    }
+    .mini-size, .mini-color, .mini-price{ font-size: 14px; }
+    .mini-size, .mini-color{ color: rgba(153, 153, 153, 1); }
+    .exp-close-mini{
+    background: #fff;
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 1.25rem;
+    position: absolute;
+    top: .75rem;
+    right: .5rem;
+    cursor: pointer;
+    }
+    .exp-btn.viewCart{
+    background-color: #fff;
+    color: #000;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+    }
+    .exp-btn.goCheckout{
+    background-color: #000;
+    color: #fff;
+    }
+    .miniBag a{ text-decoration: none;}
+    .exp-shadow{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 23, 79, 0.7);
+    z-index: 20;
+    }
+    .exp-select-field, .exp-wrap-label{ margin: 0; }
+    .exp-wrapper{
+    position: relative;
+    margin-bottom: 0;
+    }
+    .exp-select-field{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    .exp-select{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    font-family: 'Klein Web';
+    font-size: 1rem;
+    line-height: normal;
+    color: #000;
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 0;
+    text-transform: none;
+    padding: 16px 12px;
+    border: 1px solid #e4e4e4;
+    }
+    .exp-wrap-label{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    .exp-wrap-label label{
+    display: flex;
+    width: 100%;
+    position: relative;
+    }
+    .exp-wrap-label input{
+    color: #000;
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: 'Klein Web';
+    font-size: 1rem;
+    line-height: normal;
+    width: 100%;
+    height: 56px;
+    border: 1px solid #e4e4e4;
+    }
+    .exp-labeltext{
+    color: #000;
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding-left: 0.75rem;
+    padding-right: 2.75rem;
+    padding-top: 1rem;
+    text-overflow: ellipsis;
+    top: 0;
+    white-space: nowrap;
+    width: 100%;
+    font-family: 'Klein Web';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    position: absolute;
+    text-indent: 1px;
+    right: 0;
+    transition: all .2s linear;
+    pointer-events: none;
+    }
+    .exp-label-sizeSelected{
+    color: #666;      
+    padding-top: .5rem;
+    padding-left: .75rem;
+    top: 0;
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    padding-right: 2.75rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    }
+    .InputField_InputField-icon__NPQ_t.icon{
+    bottom: 10px;
+    top: 1.25rem;
+    right: 0.75rem;
+    position: absolute;
+    }
+    .exp-svg{
+    font-size: 1.25rem;
+    transform: rotate(0deg);
+    transition: all .5s ease-out;
+    }
+    [data-testid="pdpActionButton-addToBag-pvh-button"]:hover{ cursor: pointer;}
+    [data-testid*="button-size-"]:hover{ cursor: pointer; }
