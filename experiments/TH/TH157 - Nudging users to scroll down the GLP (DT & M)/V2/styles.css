@@ -1,0 +1,28 @@
+.exp-bar{
+    z-index: 102;
+    position: fixed;
+    right: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 14px;
+    background: rgba(0, 23, 79, 0.6);
+    border-radius: 12px;
+    height: 100%;
+    padding: 6px 0;    
+    }
+    .exp-dot{
+    width: 3px;
+    height: 8px;
+    background-color: #fff;
+    opacity: 0.5;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    }
+    .activeDot{ 
+    height: 48px;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    opacity: 1;
+    }

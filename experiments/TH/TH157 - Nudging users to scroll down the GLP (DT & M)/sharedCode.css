@@ -1,0 +1,10 @@
+body{scroll-behavior: smooth;}
+.exp-dots-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin: 6px auto;
+}
+.exp-dot:hover{cursor: pointer;}
