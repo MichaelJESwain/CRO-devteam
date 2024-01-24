@@ -1,0 +1,17 @@
+.ext-link-wrapper{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    }
+    .ext-link-wrapper a{ z-index: 100; }
+    .ext-link-wrapper a:hover{
+    text-decoration: none;
+    }
+    .ext-link-wrapper span{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    }

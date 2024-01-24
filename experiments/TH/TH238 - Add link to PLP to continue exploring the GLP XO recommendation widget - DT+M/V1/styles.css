@@ -1,0 +1,35 @@
+.ext-link-wrapper{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    }
+    .ext-link-wrapper a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    }
+    .ext-link-wrapper span{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #00174F;
+    color: #00174F;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    }
+    @media (max-width: 600px){
+    [data-testid="THAbTest"] [data-testid="ProductSlider"] > div:first-child{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 20px 20px 20px;
+    }
+    [data-testid="THAbTest"] .ProductSlider__title{
+    padding: 0;
+    max-width: 60%;
+    }
+    .ext-link-wrapper{
+    position: inherit;
+    top: 0;
+    right: 0;
+    }
+    }
