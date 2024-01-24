@@ -1,0 +1,48 @@
+.exp-wrapper-stock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    background: #E5E7ED;
+    border-radius: 0;
+    width: fit-content;
+    height: auto;
+    padding: 12px 16px 12px 0;
+    margin-bottom: 16px;
+    }
+    .exp-text{
+    margin: 0;
+    font-family: 'Futura Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #00174F;
+    }
+    .exp-svg{ margin-left: 17px; }
+    [class*=Modal_ModalOverlay__]{
+    align-items: stretch;
+    justify-content: flex-end;
+    }
+    @media screen and (min-width: 768px){
+    [class*=Modal_Modal__]{
+    --Modal-max-height: 100%;
+    } 
+    }
+    [data-testid=Modal-component]{
+    animation-name: slideIn;
+    animation-duration: 1s;
+    transition-timing-function: ease-in-out;
+    }
+    @keyframes slideIn{
+    0% {
+    transform: translateX(100%);
+    }
+    100% {
+    transform: translateX(0%);
+    }
+    }
+    div[class*=NotifyMePopup_SuccessIcon__] svg[data-testid="icon-utility-check-green-oval-svg"]{
+    width: 40px;
+    height: 40px;  
+    }
