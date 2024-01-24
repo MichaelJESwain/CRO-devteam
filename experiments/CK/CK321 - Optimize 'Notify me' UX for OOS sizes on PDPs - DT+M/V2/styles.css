@@ -1,0 +1,107 @@
+div[data-testid="ProductActions-component"]{ margin-top: 8px;}
+.exp-wrapper-stock{
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 9px;
+    background: #E4E4E4;
+    border-radius: 0;
+    width: fit-content;
+    height: auto;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+}
+.exp-text{
+    margin: 0;
+    font-family: 'Klein Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+.exp-input{
+    border: 1px solid #E4E4E4;
+    width: 100%;
+    height: auto;
+    padding: 12px 0 12px 12px !important;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 8px !important;
+}
+[data-testid="icon-utility-check-svg"]{
+    display: none;
+}
+.exp-input:focus{
+    border: 1px solid #000;
+    padding: 26px 0 10px 12px !important;
+}
+.exp-input:invalid{
+    color: #e10000;
+    border-bottom: 1.5px solid #e10000;
+    padding: 26px 0 10px 12px !important;
+    margin-bottom: 8px !important;
+}
+.exp-input:focus:invalid{
+  border: 1px solid #e4e4e4;
+  border-bottom: 1.5px solid #e10000;
+  padding: 26px 0 10px 12px !important;
+}
+.exp-input:valid{
+    padding: 26px 0 10px 12px !important;
+}
+.exp-error-msg {
+    display: none;
+    color: #e10000;
+    font-size: 14px;
+    margin: 0 0 16px 0;
+    font-family: 'Klein Web';
+}
+.ReactModalPortal:has(input), .ReactModal__Overlay:has(input){
+    display: none !important;
+}
+.exp-msgWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px 12px 40px;
+    position: absolute;
+    width: fit-content;
+    height: auto;
+    right: 40px;
+    top: 16px;
+    background: #41850A;
+    border-radius: 0;
+}
+.exp-msgWrapper p{
+    margin: 0 20px 0 8px;
+    font-family: 'Klein Web';
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-feature-settings: 'case' on;
+}
+.exp-close{
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .exp-msgWrapper {
+        position: fixed;
+        top: auto;
+        right: 0;
+        margin: auto 20px;
+        z-index: 100;
+        bottom: 20px;
+      padding: 12px 20px;
+    }
+    .exp-msgWrapper p{
+        text-align: left;
+        margin: 0;
+    }
+}
