@@ -1,0 +1,11 @@
+.cv_usp_div {
+    display: flex;
+    padding: 6px 0 6px 0;
+    }
+    .cv_usp_text {
+    font-size: 13px;
+    margin-left: 12px;
+    letter-spacing: 0.25px;
+    text-transform: initial;
+    }
+    .cv_usp_wrapper { margin: 20px 0 5px 0; }

@@ -1,0 +1,6 @@
+p.AcceptedPayments__text { display: none !important; }
+@media screen and (min-width: 768px){
+	.shoppingBag__filled--separator{
+		border-bottom: 1px solid #fff;
+	}
+}
