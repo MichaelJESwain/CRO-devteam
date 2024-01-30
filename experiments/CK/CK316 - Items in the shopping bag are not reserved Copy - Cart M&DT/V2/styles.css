@@ -1,0 +1,36 @@
+.ext-bag-wrapper{
+    width: fit-content;
+    height: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      margin-bottom: 13px;
+    }
+    .ext-bag-message{
+      font-family: 'Klein Web';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      color: #000000;
+      margin: 0;
+    }
+    @media (max-width: 680px){
+    .ext-bag-wrapper{
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    padding: 20px 0;
+    }
+    div[data-testid="basketItem"]{
+    margin-bottom: 0;
+    }
+    
+    }
