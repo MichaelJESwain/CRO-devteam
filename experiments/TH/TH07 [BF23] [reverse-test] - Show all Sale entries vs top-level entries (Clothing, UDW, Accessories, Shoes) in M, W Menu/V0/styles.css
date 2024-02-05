@@ -1,0 +1,104 @@
+/* Example demo of link to hide
+Selecting li that have data-promo=true */
+
+/* hide all / but allow type 3 ( Kids gender) */
+li[data-testid="MM-first-level-item"]:nth-of-type(1) ul li[data-promo="true"] li:has(a),
+li[data-testid="MM-first-level-item"]:nth-of-type(2) ul li[data-promo="true"] li:has(a)
+{
+	display: none;
+}
+
+@media only screen and (min-width: 1025px) {
+  li[data-testid="MM-first-level-item"][class*="NoGenderSelected"]:nth-of-type(1) ul li[data-promo="true"] li:has(a),
+  li[data-testid="MM-first-level-item"][class*="NoGenderSelected"]:nth-of-type(2) ul li[data-promo="true"] li:has(a)
+  {
+    display: block;
+  }
+}
+
+
+
+
+
+/* These are the links that are actully displayed to users */
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/herren-schuhe-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/herren-taschen-accessoires-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/herren-unterwaesche-bademode-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/herrenbekleidung-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-banadores-ropa-interior-hombre']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-bolsos-accessorios-hombre']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-ropa-hombre']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-zapatos-hombre']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-chaussures-homme']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-sacs-accessoires-homme']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-sous-vetements-maillots-de-bain-homme']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-vetements-homme']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-abbigliamento-uomo']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-borse-accessori-uomo']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-intimo-costumi-da-bagno-uomo']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-scarpe-uomo']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-bags-accessories-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-clothing-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-shoes-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-underwear-swimwear-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/heren-ondergoed-zwemkleding-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/sale-heren-tassen-accessoires']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/sale-herenkleding']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/sale-herenschoenen']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/meska-bielizna-kapielowki-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/meska-odziez-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/meskie-obuwie-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/meskie-torby-akcesoria-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-bags-accessories-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-clothing-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-shoes-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-underwear-swimwear-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damen-schuhe-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damen-taschen-accessoires-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damen-unterwaesche-bademode-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damenbekleidung-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-bikinis-banadores-lenceria-mujer']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-bolsos-accessorios-mujer']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-ropa-mujer']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-zapatos-mujer']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-chaussures-femme']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-sacs-accessoires-femme']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-sous-vetements-maillots-de-bain-femme']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-vetements-femme']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-abbigliamento-donna']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-borse-accessori-donna']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-intimo-costumi-da-bagno-donna']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-scarpe-donna']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/dames-lingerie-zwemkleding-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/sale-dames-tassen-accessoires']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/sale-dameskleding']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/sale-damesschoenen']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damska-bielizna-stroje-kapielowe-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damska-odziez-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damskie-obuwie-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damskie-torby-akcesoria-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/kobiety-wyprzedaz']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/womens-bags-accessories-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/womens-clothing-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/womens-shoes-sale']) ,
+li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/womens-underwear-swimwear-sale']) {
+	display: block;
+} 
+
+
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/herren-sale']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-hombre']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-homme']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-uomo']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mens-sale']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/sale-heren']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/mezczyzni-wyprzedaz']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/damen-sale']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/rebajas-mujer']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/soldes-femme']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/saldi-donna']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/sale-dames']) ,
+  li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li:has(a[href='/womens-sale']) {
+    display: none;
+  }

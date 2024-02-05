@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1024px) {  
+	.theme-th li[data-testid="MM-first-level-item"] li[data-promo='true'] ul li[class*="ThirdLevelHeadingMobile"]:has(a) {
+    display:block;
+  }
+}
