@@ -1,0 +1,83 @@
+[data-testid="Recommendations-component-pdp_rec_injection3"] {
+    display: none;
+}
+.CK378_reccGrid_title {
+    padding: 0 20px;
+    color:#000;
+    font-family: Klein Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.CK378_reccGrid_container {
+    width: 100vw;
+    position: relative;
+    left: -20px;
+    margin: 32px 0 0;
+}
+.CK378_reccGrid_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 16px;
+}
+.CK378_reccGrid_content [class*="Carousel_slide_"] {
+    min-width: calc(50% - 2px) !important;
+    max-width: calc(50% - 2px) !important;
+    margin-bottom: 20px;
+}
+
+.CK378_reccGrid_content [class*="Recommendations_dynamicLinkAnchor"] {
+    margin-bottom: 0;
+}
+
+.CK378_reccGrid_content_initialView [class*="Carousel_slide_"]:nth-child(5),
+.CK378_reccGrid_content_initialView [class*="Carousel_slide_"]:nth-child(6),
+.CK378_reccGrid_content_initialView [class*="Carousel_slide_"]:nth-child(7),
+.CK378_reccGrid_content_initialView [class*="Carousel_slide_"]:nth-child(8),
+.CK378_reccGrid_content [class*="Carousel_slide_"]:nth-child(9),
+.CK378_reccGrid_content [class*="Carousel_slide_"]:nth-child(10),
+.CK378_reccGrid_content [class*="Carousel_slide_"]:nth-child(11),
+.CK378_reccGrid_content [class*="Carousel_slide_"]:nth-child(12),
+.CK378_hide {
+    display: none !important;
+}
+.CK378_reccGrid_container [class*="Recommendations_ProductTileWrapper"] {
+    padding: 0 12px;
+}
+.CK378_slideHeight_adjusted {
+    min-height: auto !important;
+}            
+.CK378_reccGrid_container [class*="Recommendations_titleAndPrice"] {
+    padding: 12px 8px 0;
+}
+.CK378_reccGrid_container [class*="Recommendations_title_"] {
+    margin-top: 0;
+}
+.CK378_reccGrid_container [data-testid="PriceDisplay"] {
+    margin: 4px 0 12px;
+}
+.CK378_reccGrid_container [data-testid="SingleSelectForm-component"] {
+    margin: 0;
+}
+
+.CK378_reccGrid_button_container {
+    display: flex;
+    justify-content: center;
+}
+.CK378_reccGrid_button {
+    color: #000;
+    text-align: center;
+    font-family: Klein Web;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    background: transparent;
+}
