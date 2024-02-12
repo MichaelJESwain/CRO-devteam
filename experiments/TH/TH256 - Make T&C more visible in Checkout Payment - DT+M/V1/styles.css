@@ -1,0 +1,19 @@
+.TH256_error_message {
+    display: none;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 20px;
+}
+[data-testid="checkout-terms-conditions-Checkbox-Component"][class*="Checkbox_isError"] .TH256_error_message {
+    display: block;
+}
+[data-testid="checkout-terms-conditions-Checkbox-Component"][class*="Checkbox_isError"] [data-testid="checkout-terms-conditions-Checkbox-Component-icon"] {
+    border-color: #000c2d;
+}
+[data-testid="checkout-terms-conditions-Checkbox-Component-content"] span:nth-child(1),
+[data-testid="checkout-terms-conditions-Checkbox-Component-content"] span:nth-child(1) a {
+    color: #000c2d;
+}
+[class*="CheckoutLayout_PlaceOrderButton"] {
+    padding-top: 24px;
+}
