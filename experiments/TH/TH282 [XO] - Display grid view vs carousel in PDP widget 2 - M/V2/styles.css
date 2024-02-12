@@ -1,0 +1,70 @@
+[data-testid="Recommendations-component-pdp_rec_injection2"] {
+    display: none;
+}
+.TH282_reccGrid_title {
+    padding: 0 20px;
+    color: #000C2D;
+    font-family: Futura Std;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.TH282_reccGrid_container {
+    width: 100vw;
+    position: relative;
+    left: -20px;
+    margin: 56px 0 0;
+}
+.TH282_reccGrid_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 16px;
+}
+.TH282_reccGrid_content [class*="Carousel_slide_"] {
+    min-width: calc(50% - 2px) !important;
+    max-width: calc(50% - 2px) !important;
+    margin-bottom: 15px;
+}
+
+.TH282_reccGrid_content_initialView [class*="Carousel_slide_"]:nth-child(5),
+.TH282_reccGrid_content_initialView [class*="Carousel_slide_"]:nth-child(6),
+.TH282_reccGrid_content_initialView [class*="Carousel_slide_"]:nth-child(7),
+.TH282_reccGrid_content_initialView [class*="Carousel_slide_"]:nth-child(8),
+.TH282_hide {
+    display: none !important;
+}
+.TH282_reccGrid_container [class*="Recommendations_ProductTileWrapper"] {
+    padding: 0 12px;
+}
+.TH282_slideHeight_adjusted {
+    min-height: auto !important;
+}
+.TH282_reccGrid_container [data-testid="PriceDisplay"] {
+    margin: 4px 0 0;
+}
+.TH282_reccGrid_container [data-testid="SingleSelectForm-component"] {
+    display: none;
+}
+
+.TH282_reccGrid_button_container {
+    display: flex;
+    justify-content: center;
+}
+.TH282_reccGrid_button {
+    color: #000C2D;
+    text-align: center;
+    font-family: Futura Std;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    background: transparent;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    border: 2px solid #000C2D;
+    padding: 4px 16px;
+}
